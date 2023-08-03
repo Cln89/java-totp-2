@@ -4,6 +4,8 @@
 
 This is a fork of Sam Stevens' [java-totp](https://github.com/samdjstevens/java-totp) and serves as a library to help generate and verify time-based one time passwords for Multi-Factor Authentication.
 
+/!\ If Sam Stevens' java-totp were to be revived again, development on this repository will be halted, as to not take away the credit the original deserves.
+
 Generates QR codes that are recognisable by applications like Mauth, Google Authenticator and Microsoft Authenticator, and verify the one time passwords they produce.
 
 Inspired by [PHP library for Two Factor Authentication](https://github.com/RobThree/TwoFactorAuth), a similar library for PHP.
