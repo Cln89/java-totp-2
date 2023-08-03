@@ -2,9 +2,9 @@
 
 [![CircleCI](https://circleci.com/gh/samdjstevens/java-totp/tree/master.svg?style=svg&circle-token=10b865d8ba6091caba7a73a5a2295bd642ab79d5)](https://circleci.com/gh/samdjstevens/java-totp/tree/master) [![Coverage Status](https://coveralls.io/repos/github/samdjstevens/java-totp/badge.svg)](https://coveralls.io/github/samdjstevens/java-totp) [![Maven Central](https://img.shields.io/maven-central/v/dev.samstevens.totp/totp.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22dev.samstevens.totp%22%20AND%20a:%22totp%22)
 
-A java library to help generate and verify time-based one time passwords for Multi-Factor Authentication.
+This is a fork of Sam Stevens' [java-totp](https://github.com/samdjstevens/java-totp) and serves as a library to help generate and verify time-based one time passwords for Multi-Factor Authentication.
 
-Generates QR codes that are recognisable by applications like Google Authenticator, and verify the one time passwords they produce.
+Generates QR codes that are recognisable by applications like Mauth, Google Authenticator and Microsoft Authenticator, and verify the one time passwords they produce.
 
 Inspired by [PHP library for Two Factor Authentication](https://github.com/RobThree/TwoFactorAuth), a similar library for PHP.
 
